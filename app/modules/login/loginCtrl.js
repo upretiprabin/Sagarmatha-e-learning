@@ -5,12 +5,13 @@ function ($rootScope, $scope, $state, $location, loginService, Flash, apiService
         vm.getUser = {};
         vm.setUser = {};
         vm.signIn = true;
-
         //access login
         vm.login = function (data) {
             if (data.Username == "admin") {
                 if (data.Password == "admin") {
                     $state.go('app.dashboard');
+                    $rootScope.userName = data.Username;
+                    $rootScope.userCategory = "Teacher";
                 }
                 else
                     Flash.create('danger', 'Invalid Password', 'large-text');
