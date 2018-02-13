@@ -1,0 +1,24 @@
+{
+  "name": "sagarmatha-e-learning",
+  "version": "1.0.0",
+  "description": "OV Tutor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/upretiprabin/Sagarmatha-e-learning.git"
+  },
+  "keywords": [
+    "video",
+    "streaming",
+    "e-learning"
+  ],
+  "author": "SYNAPsis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/upretiprabin/Sagarmatha-e-learning/issues"
+  },
+  "homepage": "https://github.com/upretiprabin/Sagarmatha-e-learning#readme"
+}
