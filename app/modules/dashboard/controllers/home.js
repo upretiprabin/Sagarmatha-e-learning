@@ -7,25 +7,25 @@ function ($rootScope, $scope, $state, $location, dashboardService, Flash) {
     
     vm.home.mainData = [
         {
-            title: "Projects",
+            title: "Users",
             value: "30+",
             theme: "aqua",
             icon: "puzzle-piece"
         },
         {
-            title: "Designs",
+            title: "Users",
             value: "250+",
             theme: "red",
             icon: "paint-brush"
         },
         {
-            title: "Awards",
+            title: "Users",
             value: "50+",
             theme: "green",
             icon: "trophy"
         },
         {
-            title: "Cups of Beer",
+            title: "Users",
             value: "0",
             theme: "yellow",
             icon: "glass"

@@ -17,11 +17,11 @@ dashboard.config(["$stateProvider", function ($stateProvider) {
     //skills page state
     $stateProvider.state('app.skills', {
         url: '/skills',
-        templateUrl: 'app/modules/dashboard/views/skills.html',
-        controller: 'SkillController',
+        templateUrl: 'app/modules/dashboard/views/home.html',
+        controller: 'HomeController',
         controllerAs: 'vm',
         data: {
-            pageTitle: 'Skills'
+            pageTitle: 'BroadCast'
         }
     });
 

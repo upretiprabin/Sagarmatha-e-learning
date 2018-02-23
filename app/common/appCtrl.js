@@ -111,22 +111,14 @@ function ($rootScope, $scope, $state, $location, Flash,appSettings) {
             title: "Broadcast",
             icon: "gears",
             state: "skills"
-        },
-        {
-            title: "Education",
-            icon: "graduation-cap",
-            state: "education"
-        },
+        }
+
         // {
         //     title: "Experience",
         //     icon: "suitcase",
         //     state: "experience"
         // },
-        {
-            title: "Archive",
-            icon: "file-code-o",
-            state: "recent"
-        },
+
         // {
         //     title: "Websites",
         //     icon: "globe",
